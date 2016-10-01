@@ -19,3 +19,4 @@ for i in range(3,101):
 		ws.cell(row=i, column=j, value=i)
 #saving the workbook
 wb.save('Sample_excel.xlsx')
+
