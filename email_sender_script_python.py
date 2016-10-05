@@ -11,6 +11,6 @@ smtpobj.starttls()
 #your login to your mail account
 smtpobj.login('YOUR_EMAIL_ADDRESS', 'YOUR_PASSWORD')
 #from address,to address ,Subject:something.\n Now your mail body msg
-smtpobj.sendmail('manjulyadav93@gmail.com', 'manjulyadav93@gmail.com', 'Subject:Trail mail from python.\nHi Manjul,How are you?Have you got your salary')
+smtpobj.sendmail('From Address', 'To address', 'Subject:Trail mail from python.\nHi Manjul,How are you?Have you got your salary')
 #disconnecting from server
 smtpobj.quit()
